@@ -113,8 +113,14 @@ var app = {
   },
 
   salvarFirebase: function() {
-    var ref = firebase.storage().ref('model.json');
-    ref.putString(JSON.stringify(app.model));
+    try{
+        var ref = firebase.storage().ref('model.json');
+        ref.putString(JSON.stringify(app.model));
+       }
+       catch(err) {
+        alert(err.message);
+      };
+   
   },
 
   hayWifi: function() {
