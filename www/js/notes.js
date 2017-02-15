@@ -116,6 +116,7 @@ var app = {
     try{
         var ref = firebase.storage().ref('model.json');
         ref.putString(JSON.stringify(app.model));
+        alert ((JSON.stringify(app.model));
        }
        catch(err) {
         alert(err.message);
