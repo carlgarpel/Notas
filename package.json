@@ -4,7 +4,7 @@
   "description": "gestion de notas",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devscola/MOOC-notes.git"
+    "url": "git+https://github.com/carlgarpel/Notas"
   },
   "keywords": [
     "ecosystem:phonegap",
