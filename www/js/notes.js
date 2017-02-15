@@ -4,18 +4,15 @@ var app = {
     "notas": [{"titulo": "Comprar pan", "contenido": "Oferta en la panaderia de la esquina"}]
   },
 
-  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
-<script>
+
   // Initialize Firebase
-  var config = {
+  firebaseConfig: {
     apiKey: "AIzaSyCye0MySElJDAYl7kzNwJ4QQksWSuXaPgw",
     authDomain: "notasapp-ca0af.firebaseapp.com",
     databaseURL: "https://notasapp-ca0af.firebaseio.com",
     storageBucket: "notasapp-ca0af.appspot.com",
     messagingSenderId: "550894247310"
-  };
-  firebase.initializeApp(config);
-</script>,
+  },
 
   inicio: function(){
     this.iniciaFastClick();
