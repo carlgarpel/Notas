@@ -14,6 +14,7 @@ var app = {
     messagingSenderId: "550894247310"
   },
 
+
   inicio: function(){
     this.iniciaFastClick();
     this.iniciaFirebase();
