@@ -105,6 +105,7 @@ var app = {
     writer.onwriteend = function(evt) {
       console.log("datos grabados en externalApplicationStorageDirectory");
       if(app.hayWifi()) {
+        alert("hayWifi");
         app.salvarFirebase();
       }
     };
